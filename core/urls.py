@@ -29,6 +29,7 @@ urlpatterns = [
     path('api/news/', include('apps.news.urls')),
     path('api/review/', include('apps.review.urls')),
     path('api/team-members/', include('apps.teammember.urls')),
+    path('api/settings/', include('apps.settings.urls')),
 
 ]   + urls_swagger
 

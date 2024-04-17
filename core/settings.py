@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'apps.review',
     'apps.teammember',
     'apps.users',
+    'apps.settings',
 
     # Docs
     'drf_yasg',
